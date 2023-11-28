@@ -1,2 +1,3 @@
 theme: jekyll-theme-cayman # Specify the Jekyll theme
-remote_theme: jpages-themes/cayman@v0.2.0
+remote_theme: pages-themes/cayman
+
