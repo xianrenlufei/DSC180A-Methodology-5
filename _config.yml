@@ -1,3 +1,26 @@
-remote_theme: pages-themes/cayman@v0.2.0
-plugins: jekyll-remote-theme
-url: 'https://xianrenlufei.org'
+# Site settings
+title: Your Site Title
+description: A brief description of your site
+baseurl: "/DSC180A-Methodology-5" # If your site is not at the root of your domain, set the base URL here
+
+# Build settings
+markdown: kramdown # Specify the Markdown processor (e.g., kramdown or redcarpet)
+theme: jekyll-theme-cayman # Specify the Jekyll theme
+
+# GitHub Pages settings
+remote_theme: jekyll/minimal # Use a remote theme (replace with the theme you want)
+
+# Exclude files from the build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - _site
+  - .git
+  - .gitignore
+
+# Jekyll serve settings
+port: 4000 # Specify the port Jekyll should use when serving the site locally
+host: 0.0.0.0 # Specify the host Jekyll should use when serving the site locally
+
